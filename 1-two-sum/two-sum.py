@@ -1,13 +1,14 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # with hashmap
+        # with hashmap `O(n)`
         _map = {} # val: index
         for i, n in enumerate(nums):
             if target - n in _map:
                 return [i, _map[target-n]]
             else:
                 _map[n] = i
-        # without hashmap
+
+        # without hashmap `O(n^2)`
         # for i in range(0, len(nums)):
         #     ind1=i
         #     for j in range(i+1, len(nums)):
