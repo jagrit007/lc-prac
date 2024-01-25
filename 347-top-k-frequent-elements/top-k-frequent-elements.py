@@ -5,5 +5,5 @@ class Solution:
         heapify(heap)
         while len(heap) > k:
             heappop(heap)
-        # return [x for (freq, x) in heap]
-        return [x[1] for i,x in enumerate(heap, start=1) if i<=k]
+        return [x for (freq, x) in heap]
+        # return [x for i,(freq, x) in enumerate(heap, start=1) if i<=k]
