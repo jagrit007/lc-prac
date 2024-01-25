@@ -1,0 +1,1 @@
+<h2><a href="https://neetcode.io/problems/string-encode-and-decode">Encode and Decode Strings</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Design an algorithm to <em>encode</em> a list of strings to a single string. The encoded string is then <em>decoded</em> back to the original list of strings.</p>
