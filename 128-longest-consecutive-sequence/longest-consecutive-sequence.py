@@ -7,5 +7,5 @@ class Solution:
                 seq = 1
                 while (i+seq) in num_set:
                     seq += 1
-                longest = max(longest, seq)
+                longest=max(longest, seq)
         return longest
