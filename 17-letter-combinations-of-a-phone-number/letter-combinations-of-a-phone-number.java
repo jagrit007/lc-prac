@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 class Solution {
     static String combinations[] = {" ", ".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
