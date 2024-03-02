@@ -1,3 +1,4 @@
+// TC: O(n^n)
 class Solution {
     public void saveBoard(List<List<String>> allBoards, char board[][]){
         String row = "";
