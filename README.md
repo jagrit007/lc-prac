@@ -37,6 +37,8 @@
 | 33    | Binary Search                                     | [binary-search.py](https://github.com/jagrit007/lc-prac/tree/main/792-binary-search)                                                                            | Binary search algorithm                           | Array              | Easy                 |
 | 34    | Palindrome Number                                 | [palindrome-number.py](https://github.com/jagrit007/lc-prac/tree/main/9-palindrome-number)                                                                      | Check if integer is palindrome without converting | Math               | Easy                 |
 | 35    | Linked List Cycle                                 | [linked-list-cycle.java](https://github.com/jagrit007/lc-prac/tree/main/141-linked-list-cycle)                                                                  | Fast and slow pointers to detect cycle            | Linked List        | Easy                 |
+| 36    | Min Stack                                         | [min-stack.java](https://github.com/jagrit007/lc-prac/blob/main/155-min-stack/min-stack.java)                                                                   | Design a stack that supports min in O(1) time     | Stack              | Easy                 |
+| 37    | Valid Parentheses                                 | [valid-parentheses.java](https://github.com/jagrit007/lc-prac/blob/main/20-valid-parentheses/valid-parentheses.java)                                            | Stack to check for balanced parentheses           | Stack              | Easy                 |
 ---
 [**View on Google Sheets**](https://bit.ly/j4grit-lc)
 
