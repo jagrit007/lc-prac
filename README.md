@@ -1,4 +1,5 @@
 # Solved Problems 🧑🏻‍💻
+
 | S.no. | Title                                             | Link                                                                                                                                                            | SolutionApproachUsed                              | DataStructuresUsed | Level(Hard/Med/Easy) |
 | ----- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------ | -------------------- |
 | 1     | Two Sum                                           | [two-sum.py](https://github.com/jagrit007/lc-prac/tree/main/1-two-sum)                                                                                          | Use hashmap for O(n) efficiency                   | Hash Map           | Easy                 |
@@ -37,4 +38,6 @@
 | 34    | Palindrome Number                                 | [palindrome-number.py](https://github.com/jagrit007/lc-prac/tree/main/9-palindrome-number)                                                                      | Check if integer is palindrome without converting | Math               | Easy                 |
 | 35    | Linked List Cycle                                 | [linked-list-cycle.java](https://github.com/jagrit007/lc-prac/tree/main/141-linked-list-cycle)                                                                  | Fast and slow pointers to detect cycle            | Linked List        | Easy                 |
 ---
+[**View on Google Sheets**](https://bit.ly/j4grit-lc)
+
 ~~*I am aware that links are broken as of now*~~ [FIXED] ✅
