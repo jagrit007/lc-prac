@@ -1,4 +1,7 @@
 # Solved Problems 🧑🏻‍💻
+<p align="center">
+  <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxi0OLhvLXXwincqYhRS_AtAklQ9VE7LxVBJU92HVRez1q4bl66kdP_D4GcNf-LtPqZK7IRAfY3JoH/pubchart?oid=547935406&format=image" />
+</p>
 
 | S.no. | Title                                             | Link                                                                                                                                                            | SolutionApproachUsed                              | DataStructuresUsed | Level(Hard/Med/Easy) |
 | ----- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------ | -------------------- |
