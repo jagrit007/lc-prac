@@ -1,7 +1,6 @@
 class Solution:
     def imageSmoother(self, img: List[List[int]]) -> List[List[int]]:
         rows, cols = len(img), len(img[0])
-        # create empty list of 0s
         result = [[0] * cols for _ in range(rows)]
         
         for row in range(rows):
@@ -13,7 +12,6 @@ class Solution:
                             continue
                         total += img[i][j]
                         count += 1
-
                 result[row][col] = total // count
 
         return result
