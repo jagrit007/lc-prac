@@ -47,6 +47,8 @@
 | 40    | Assign Cookies                                    | [assign-cookies.py](https://github.com/jagrit007/lc-prac/blob/main/455-assign-cookies/assign-cookies.py)                                                        | Greedy to satisfy the most children               | Array, Greedy       | Easy                 |
 | 41    | Permutations                                      | [permutations.py](https://github.com/jagrit007/lc-prac/blob/main/46-permutations/permutations.py)                                                               | Backtracking                                      | Array, Backtracking | Medium               |
 | 42    | Image Smoother                                    | [image-smoother.py](https://github.com/jagrit007/lc-prac/blob/main/661-image-smoother/image-smoother.py)                                                        | Iterate and calculate average                     | Array               | Easy                 |
+| 43    | Combination Sum                                   | [combination-sum.py](https://github.com/jagrit007/lc-prac/blob/main/39-combination-sum/combination-sum.py)                                                      | Backtracking to find unique combinations          | Array, Backtracking | Medium               |
+| 44    | Word Search                                       | [word-search.py](https://github.com/jagrit007/lc-prac/blob/main/79-word-search/word-search.py)                                                                  | DFS to search words in a grid                     | Array, DFS          | Medium               |
 ---
 [**View on Google Sheets**](https://bit.ly/j4grit-lc)
 
