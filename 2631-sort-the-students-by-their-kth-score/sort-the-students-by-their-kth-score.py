@@ -1,7 +1,3 @@
 class Solution:
     def sortTheStudents(self, score: List[List[int]], k: int) -> List[List[int]]:
-        score.sort(key=lambda row: row[k], reverse=True)
-
-        return score
-        
-        
+        return sorted(score, key=lambda x: x[k], reverse=True)
