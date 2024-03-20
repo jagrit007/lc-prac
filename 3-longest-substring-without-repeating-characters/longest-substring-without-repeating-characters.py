@@ -1,15 +1,19 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        currMax = 0
-
-        for ind, i in enumerate(s):
-            hmap = defaultdict(int)
-            ptr_2 = ind + 1
-            hmap[i] += 1
-            count = 1
-            while ptr_2 < len(s) and s[ptr_2] not in hmap:
-                hmap[s[ptr_2]] += 1
-                ptr_2 += 1
-                count += 1
-            currMax = max(currMax, count)
-        return currMax
+        if not s:
+            return 0
+        
+        hmap = {}
+        max_length = 0
+        start = 0
+        
+        for end, char in enumerate(s):
+            if char in hmap:
+                # Move the start pointer to the next index after the previous occurrence of the repeating character
+                start = max(start, hmap[char] + 1)
+            # Update the current character's index in the hashmap
+            hmap[char] = end
+            # Update the maximum length of the substring without repeating characters
+            max_length = max(max_length, end - start + 1)
+        
+        return max_length
