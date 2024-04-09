@@ -7,5 +7,6 @@ class Solution:
                 if (i+len(word)) <= len(s) and s[i:(i+len(word))] == word:
                     dp[i] = dp[i+len(word)]
                 if dp[i]:
+                    i = i+len(word)
                     break
         return dp[0]
